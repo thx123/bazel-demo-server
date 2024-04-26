@@ -20,11 +20,10 @@ import os
 import grpc
 import logging
 
-from external.bazel_demo_schema~.protos.protos import routeguide_pb2
-from external.bazel_demo_schema~.protos.protos import routeguide_pb2_grpc
-
-# from examples.grpc_py import resources
-import resources
+# Error: External module import path is not yet working...
+import bazel_demo_schema.protos.routeguide_pb2
+import bazel_demo_schema.protos.routeguide_pb2_grpc
+import bazel_demo_schema.common.resources
 
 _ONE_DAY_IN_SECONDS = 60 * 60 * 24
 

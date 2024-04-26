@@ -1,5 +1,4 @@
-load("@rules_proto_grpc_python//:defs.bzl", "python_grpc_library")
-load("@rules_python//python:defs.bzl", "py_binary", "py_library")
+load("@rules_python//python:defs.bzl", "py_binary")
 
 py_binary(
     name = "server",
